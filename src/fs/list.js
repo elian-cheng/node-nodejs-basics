@@ -1,3 +1,5 @@
+// terminal command: node src/fs/list
+
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import path from "path";

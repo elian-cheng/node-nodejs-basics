@@ -1,3 +1,5 @@
+// terminal command: node src/fs/delete
+
 import { fileURLToPath } from "url";
 import fs from "fs/promises";
 import path from "path";

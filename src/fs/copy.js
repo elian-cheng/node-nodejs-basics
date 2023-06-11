@@ -1,3 +1,5 @@
+// terminal command: node src/fs/copy
+
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -12,7 +14,7 @@ const copy = async () => {
     await fs.cp(source, destination, {
       recursive: true,
       force: false,
-      errorOnExist: true,
+      errorOnExist: true
     });
   } catch (error) {
     throw new Error("FS operation failed");

@@ -1,3 +1,5 @@
+// terminal command: node src/fs/create
+
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
